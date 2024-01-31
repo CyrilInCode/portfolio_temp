@@ -1,0 +1,56 @@
+.filter-me {
+    width: 100%;
+    height: auto;
+    filter: blur(0); /* Initial blur value, adjust as needed */
+    opacity: 1; /* Initial opacity value */
+    transition: filter 1s ease-in-out, opacity 1s ease-in-out; /* Transition effect for smooth changes */
+  
+    animation: blurAnimation 10s infinite; /* 5 seconds animation interval, infinite loop */
+  }
+  
+  @keyframes blurAnimation {
+    0%, 100% {
+        filter: blur(0); 
+        opacity: 1; /* Initial and final opacity value */
+    }
+    45% {
+        filter: blur(5px);
+    }
+    50% {
+        filter: blur(5px);
+        opacity: 0; /* Fade in at 50% */
+    }
+    55% {
+        filter: blur(5px);
+    }
+    
+  }
+
+  .filter-me-ia {
+    width: 100%;
+    height: auto;
+    filter: blur(5px); /* Initial blur value, adjust as needed */
+    opacity: 0; /* Initial opacity value */
+    transition: filter 1s ease-in-out, opacity 1s ease-in-out; /* Transition effect for smooth changes */
+  
+    animation: blurFadeAnimation 10s infinite; /* 5 seconds animation interval, infinite loop */
+  }
+  
+  @keyframes blurFadeAnimation {
+    0%, 100% {
+        filter: blur(5px); 
+        opacity: 0; /* Initial and final opacity value */
+    }
+    45% {
+        filter: blur(0);
+    }
+    
+    50% {
+        filter: blur(0);
+        opacity: 1; /* Fade in at 50% */
+    }
+    55% {
+        filter: blur(0);
+    }
+    
+  }
