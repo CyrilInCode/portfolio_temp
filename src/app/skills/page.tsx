@@ -65,7 +65,7 @@ export default function SkillsComponent() {
                   whileHover={{ scale: 1.2 }}
                   onHoverStart={e => {}}
                   onHoverEnd={e => {}}
-                  href='/#experience'
+                  href='/portfolio_temp/#experience'
                   className='hover:text-tertiary hover:font-extrabold'
               >
                 <motion.li key={0} className="item" variants={item} >Experiences</motion.li>
@@ -74,7 +74,7 @@ export default function SkillsComponent() {
                   whileHover={{ scale: 1.2 }}
                   onHoverStart={e => {}}
                   onHoverEnd={e => {}}
-                  href='/#education'
+                  href='/portfolio_temp/#education'
                   className='hover:text-tertiary hover:font-extrabold'
               >
                 <motion.li key={1} className="item" variants={item} >Education</motion.li>
@@ -83,7 +83,7 @@ export default function SkillsComponent() {
                   whileHover={{ scale: 1.2 }}
                   onHoverStart={e => {}}
                   onHoverEnd={e => {}}
-                  href='/skills'
+                  href='/portfolio_temp/skills'
                   className='hover:text-tertiary hover:font-extrabold'
               >
                 <motion.li key={2} className="item" variants={item} >Skills</motion.li>
@@ -92,7 +92,7 @@ export default function SkillsComponent() {
                   whileHover={{ scale: 1.2 }}
                   onHoverStart={e => {}}
                   onHoverEnd={e => {}}
-                  href='/#projects'
+                  href='/portfolio_temp/#projects'
                   className='hover:text-tertiary hover:font-extrabold'
               >
                 <motion.li key={3} className="item" variants={item} >Projects</motion.li>
@@ -102,7 +102,7 @@ export default function SkillsComponent() {
                   whileHover={{ scale: 1.2 }}
                   onHoverStart={e => {}}
                   onHoverEnd={e => {}}
-                  href='/#contact'
+                  href='/portfolio_temp/#contact'
                   className='hover:text-tertiary hover:font-extrabold'
               >
                 <motion.li key={4} className="item" variants={item} >Contact</motion.li>
@@ -408,7 +408,7 @@ export default function SkillsComponent() {
                             },
                         }}
                         >
-                    <h2 className="text-center md:text-xl lg:text-2xl font-bold select-all">Trello</h2>
+                    <h2 className="text-center md:text-xl lg:text-2xl font-bold select-all">Trello </h2>
                     </motion.div>
                     </motion.li>
                 </motion.ul>

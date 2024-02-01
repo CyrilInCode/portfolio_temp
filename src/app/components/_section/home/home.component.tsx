@@ -86,7 +86,7 @@ export default function HomeComponent() {
                   whileHover={{ scale: 1.2 }}
                   onHoverStart={e => {}}
                   onHoverEnd={e => {}}
-                  href='/skills'
+                  href='/portfolio_temp/skills'
                   className='hover:text-tertiary hover:font-extrabold'
               >
                 <motion.li key={2} className="item" variants={item} >Skills</motion.li>
