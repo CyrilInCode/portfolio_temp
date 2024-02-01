@@ -149,7 +149,7 @@ export default function ProjectsComponent() {
                                     }
                                 }}
                             >
-                        <Image src={'/courroux.png'} alt="Picture of the author" width={700} height={700} className="border border-primary rounded-md" />
+                        <Image src={'/portfolio_temp/courroux.png'} alt="Picture of the author" width={700} height={700} className="border border-primary rounded-md" />
                         </motion.div>
                     </div>
 
@@ -176,7 +176,7 @@ export default function ProjectsComponent() {
                                     }
                                 }}
                             >
-                        <Image src={'/tiktok_uploader.png'} alt="Picture of the author" width={700} height={700} className="border border-primary rounded-md" />
+                        <Image src={'/portfolio_temp/tiktok_uploader.png'} alt="Picture of the author" width={700} height={700} className="border border-primary rounded-md" />
                         {/* <h1 className=" text-[300px]">?</h1> */}
                         </motion.div>
                     </div>

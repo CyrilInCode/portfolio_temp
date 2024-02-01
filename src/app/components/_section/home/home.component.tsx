@@ -48,7 +48,7 @@ export default function HomeComponent() {
           > */}
 
             <Image
-              src={'/favicon.png'}
+              src={'/portfolio_temp/favicon.png'}
               alt="Picture of the author"
               width={100}
               height={100}
@@ -226,7 +226,7 @@ export default function HomeComponent() {
             className='xl:w-fit w-4/5 sm:w-3/5 md:w-1/2 lg:w-full max-[100px]:w-1/3'
           /> */}
           <Image
-            src={'/me_final.png'}
+            src={'/portfolio_temp/me_final.png'}
             alt="Picture of the author"
             width={1105}
             height={886}

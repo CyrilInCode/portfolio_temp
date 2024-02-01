@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
        <Head>
-        <link rel="icon" href={'/favicon.ico'} />
+        <link rel="icon" href={'/portfolio_temp/favicon.ico'} />
       </Head> 
       <body className={inter.className }>{children}</body>
     </html>
