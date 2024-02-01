@@ -45,7 +45,7 @@ export default function SkillsComponent() {
           > */}
 
             <Image
-              src={'/favicon.png'}
+              src={'/portfolio_temp/favicon.png'}
               alt="Picture of the author"
               width={100}
               height={100}
